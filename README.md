@@ -1,0 +1,1 @@
+The model only use dinov3 to address training-free open-vocabulary semantic segmentation task.
