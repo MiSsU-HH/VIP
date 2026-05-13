@@ -85,7 +85,14 @@ bash ./dist_test.sh ./configs/cfg_DATASET.py
 Please cite our work if you find it helpful to your research.
 
 ```bibtex
-@inproceedings{
+@misc{zhuVIP,
+      title={VIP: Visual-guided Prompt Evolution for Efficient Dense Vision-Language Inference}, 
+      author={Hao Zhu and Shuo Jin and Wenbin Liao and Jiayu Xiao and Yan Zhu and Siyue Yu and Feng Dai},
+      year={2026},
+      eprint={2605.12325},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.12325}, 
 }
 ```
 
