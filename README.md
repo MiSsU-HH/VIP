@@ -1,6 +1,44 @@
-# [ICML 2026 ✨] *VIP*: Visual-guided Prompt Evolution for Efficient Dense Vision-Language Inference 
+<div align="center">
 
-This repository contains the source code of [*VIP*: Visual-guided Prompt Evolution for Efficient Dense Vision-Language Inference.]()
+# *<span style="color:#9ad9ff">VIP</span>*: Visual-guided Prompt Evolution for Efficient Dense Vision-Language Inference 
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.12325"><img src="https://img.shields.io/badge/Paper-ArXiv-red?style=flat-square&labelColor=444444" alt="Paper arXiv"></a>
+  <a href="https://github.com/MiSsU-HH/VIP/"><img src="https://img.shields.io/badge/Project-Page-1f6feb?style=flat-square&labelColor=444444" alt="Project Page"></a>
+  <a href="./docs/VIP_poster.pdf"><img src="https://img.shields.io/badge/Poster-ICML-F9AB00?style=flat-square&labelColor=444444" alt="Open Poster"></a>
+</p>
+
+✨ **ICML 2026** ✨
+
+**Hao Zhu\* <sup>1,2</sup> ·
+Shuo Jin\* <sup>3,4</sup> ·
+Wenbin Liao<sup>1,2</sup> ·
+Jiayu Xiao<sup>1,2</sup> ·
+Yan Zhu<sup>2</sup> ·
+Siyue Yu<sup>3</sup> ·
+Feng Dai† <sup>1</sup> ·**   
+(\*equal contribution, † corresponding author)
+
+<sup>1</sup> Institute of Computing Technology, Chinese Academy of Sciences &nbsp;&nbsp; 
+
+<sup>2</sup> School of Computer Science and Technology &nbsp;&nbsp; 
+<sup>3</sup> XJTLU &nbsp;&nbsp; 
+<sup>4</sup> University of Liverpool &nbsp;&nbsp; 
+
+
+</div>
+
+VIP solves open-vocabulary semantic segmentation using a different V-L backbone *dino.txt* supported by a frozen DINOv3 backbone
+
+🚀 **Training-free:** no fine-tuning, no extra decoder, no auxiliary backbones  
+🔍 **Insight:** we uncover the deep-seated sptial bias of CLIP paradigm and identify the semantically sparse of solitary class names  
+📈 **State-of-the-art & faster:** outperforms prior methods without post-processing, while maintaining efficiency  
+🌍 **Generalizes broadly:** from natural images to urban-style images, and high-resolution remote sensing imagery
+
+
+<!-- # [ICML 2026 ✨] *VIP*: Visual-guided Prompt Evolution for Efficient Dense Vision-Language Inference 
+
+This repository contains the source code of [*VIP*: Visual-guided Prompt Evolution for Efficient Dense Vision-Language Inference.]() -->
 
 <br>
 <img width="100%" alt="AFA flowchart" src="./docs/VIP.png">
