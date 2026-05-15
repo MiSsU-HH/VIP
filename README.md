@@ -28,7 +28,7 @@ Feng Dai† <sup>1</sup> ·**
 
 </div>
 
-VIP solves open-vocabulary semantic segmentation using a different V-L backbone *dino.txt* supported by a frozen DINOv3 backbone
+*<span style="color:#9ad9ff">VIP</span>* solves open-vocabulary semantic segmentation using a different V-L backbone *dino.txt* supported by a frozen DINOv3 backbone:
 
 🚀 **Training-free:** no fine-tuning, no extra decoder, no auxiliary backbones  
 🔍 **Insight:** we uncover the deep-seated sptial bias of CLIP paradigm and identify the semantically sparse of solitary class names  
